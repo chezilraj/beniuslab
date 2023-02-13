@@ -3,7 +3,7 @@
     <Header />
     <video
       class="hero-video"
-      src="../assets/images/rahul_video.mp4"
+      src="../assets/images/blackbeniusbg.mp4"
       preload
       muted
       autoplay
@@ -13,13 +13,12 @@
     <div class="hero-content-holder">
       <div class="hero-content px-90">
         <h1 class="hero-content__title">
-          Our wizards<br />
-          laboratory elaborates with
+          We are team of<br />multidisciplinary, experimental
         </h1>
         <h2 class="hero-content__description">
-          Digital,<br />
-          physical &<br />
-          mental worlds.
+          Research,<br />
+          Development<br />
+          and Design Wizards.
         </h2>
       </div>
     </div>
@@ -70,10 +69,10 @@ export default {};
       left: 115px;
     }
     &__title {
-      font-size: 8px;
+      font-size: 18px;
       letter-spacing: 1.26px;
       @media screen and (min-width: 768px) {
-        font-size: 8px;
+        font-size: 24px;
         letter-spacing: 1.62px;
       }
       @media screen and (max-width: 767px) {
@@ -82,10 +81,10 @@ export default {};
     }
     &__description {
       font-family: $secondary-font-family;
-      font-size: 39px;
+      font-size: 45px;
       letter-spacing: -0.41px;
       @media screen and (min-width: 768px) {
-        font-size: 45px;
+        font-size: 60px;
         letter-spacing: -0.46px;
       }
     }
