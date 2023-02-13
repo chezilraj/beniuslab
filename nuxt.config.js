@@ -41,7 +41,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Rahuldas',
+    title: 'Benius lab',
     htmlAttrs: {
       lang: 'en'
     },
@@ -69,7 +69,7 @@ export default {
   components: true,
 
 	ssr: false,
-	
+
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/typescript
