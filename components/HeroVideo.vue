@@ -73,6 +73,7 @@ export default {};
       letter-spacing: 1.26px;
       @media screen and (min-width: 768px) {
         font-size: 24px;
+        font-weight: 400;
         letter-spacing: 1.62px;
       }
       @media screen and (max-width: 767px) {
@@ -82,9 +83,11 @@ export default {};
     &__description {
       font-family: $secondary-font-family;
       font-size: 45px;
+      font-weight: 700;
+      line-height: 1.2;
       letter-spacing: -0.41px;
       @media screen and (min-width: 768px) {
-        font-size: 60px;
+        font-size: 90px;
         letter-spacing: -0.46px;
       }
     }
